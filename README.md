@@ -1,2 +1,2 @@
 # Mis-dinos-favoritos
-Un ejercicio que comienzo para iniciarme de un tema que me gusta.
+Un ejercicio para iniciarme en la maquetación por mi cuenta, de un tema que me gusta.
