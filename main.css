@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: fantasy;
+}
+
+header {
+    background-color: rgb(80, 4, 4);
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    gap: 30px;
+   
+
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 30px;
+    display: inline-block;
+   padding-top: 3%;
+
+}
+
+.craneo {    
+    display: flex;
+    justify-content: left;
+    width: 70px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.hojas {
+    display: flex;
+    justify-content: right;
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 30px;
+    height: 80px;
+}
