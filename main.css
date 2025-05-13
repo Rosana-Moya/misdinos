@@ -20,7 +20,7 @@ header {
 
 h1 {
     color: antiquewhite;
-    font-size: 30px;
+    font-size: 50px;
     display: inline-block;
    padding-top: 3%;
 
@@ -157,23 +157,34 @@ h2 {
     flex-wrap: wrap;
     background-color: rgb(121, 10, 10);
     margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
+
 .foo {
-       display: flex;
-    border: 0.3rem;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
-    
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    border: 0.3rem;
+    padding-bottom: 10px;
 }
 
 h3 {
-   font-size: 30px;
+   font-size: 37px;
+   justify-content: start;
+   align-items: center;
+   flex: 1;
+   padding-left: 200px;
    
 }
 form {
-  margin-top: 20px;
+  margin-top: 7px;
+  margin-bottom: 30px;
+  align-items: center;
+  flex: 1;
+  padding-right: 200px;
 }
 
 select {
@@ -181,6 +192,8 @@ select {
   height: 45px;         /* Más alto */
   font-size: 18px;      /* Texto más grande */
   padding: 10px;
+  margin: 0%;
+  
 }
 
 button {
