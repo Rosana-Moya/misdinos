@@ -176,20 +176,21 @@ h2 {
     
 }
 
-h3 {
-   font-size: 37px;
-   justify-content: start;
-   align-items: center;
-   flex: 1;
-   padding-left: 200px;
-   
-}
+
 form {
   margin-top: 7px;
   margin-bottom: 30px;
   align-items: center;
   flex: 1;
   padding-right: 200px;
+}
+
+h3 {
+   font-size: 37px;
+   justify-content: start;
+   align-items: center;
+   flex: 1;
+   padding-left: 200px;
 }
 
 select {
