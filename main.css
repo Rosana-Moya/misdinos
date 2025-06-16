@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: fantasy;
+}
+
+header {
+    background-color: rgb(80, 4, 4);
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    gap: 30px;
+    align-items: center;
+    
+   
+
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 50px;
+    display: inline-block;
+    
+    
+   
+
+}
+
+.craneo {    
+    display: flex;
+    justify-content: left;
+    width: 70px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.hojas {
+    display: flex;
+    justify-content: right;
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 30px;
+    height: 80px;
+}
+main {
+    background-color: red;
+}
+.braquio {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    height: 300px;
+}
+.pbraquio {
+    color: antiquewhite;
+    font-size: 45px;
+    justify-content: center;
+
+}
+a {
+    color: beige;
+    font-size: 14px;
+}
+
+.carno {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    height: 300px;
+}
+
+.pcarno {
+    color: antiquewhite;
+    font-size: 45px;
+    justify-content: center;
+}
+
+.dilo {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    height: 300px;
+}
+
+.pdilo {
+    color: antiquewhite;
+    font-size: 45px;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    border: 0.3rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.container2{
+  display: flex;
+    border: 0.3rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+img{
+     display: flex;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+    height: 300px;
+}
+p {
+    color: antiquewhite;
+    font-size: 45px;
+    justify-content: center;
+}
+
+.container3 {
+     display: flex;
+    border: 0.3rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.container4 {
+      display: flex;
+    border: 0.3rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(121, 10, 10);
+}
+
+h2 {
+     color: antiquewhite;
+    font-size: 45px;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container5 {
+       display: flex;
+    border: 0.3rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(121, 10, 10);
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+
+.foo {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    border: 0.3rem;
+    padding-bottom: 10px;
+    
+}
+
+
+form {
+  margin-top: 7px;
+  margin-bottom: 30px;
+  align-items: center;
+  flex: 1;
+  padding-right: 200px;
+}
+
+h3 {
+   font-size: 37px;
+   justify-content: start;
+   align-items: center;
+   flex: 1;
+   padding-left: 200px;
+}
+
+select {
+  width: 300px;         /* Ancho más grande */
+  height: 45px;         /* Más alto */
+  font-size: 18px;      /* Texto más grande */
+  padding: 10px;
+  margin: 0%;
+  
+}
+
+button {
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  margin-top: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  justify-content: end;
+}
+
+/* @media (max-width: 1260px)
+{
+    .foo {
+        flex-direction: column;
+        align-items: flex-start;
+       
+    }
+    
+    .h3{
+        align-items: flex-start;
+    }
+    button {
+        align-items: flex-end;
+    }
+    
+} 
+@media (max-width: 500px)
+    { .foo
+        display: flex-wrap: :end;;
+        
+        h3 
+        align-items: flex-start;
+    
+    button 
+        align-items: flex-end;
+        
+} */
