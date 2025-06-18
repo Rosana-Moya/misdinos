@@ -15,8 +15,6 @@ header {
     padding: 4%;
     gap: 30px;
     align-items: center;
-    
-   
 
 }
 
@@ -24,9 +22,6 @@ h1 {
     color: antiquewhite;
     font-size: 50px;
     display: inline-block;
-    
-    
-   
 
 }
 
@@ -190,7 +185,7 @@ h3 {
    justify-content: start;
    align-items: center;
    flex: 1;
-   padding-left: 200px;
+   
 }
 
 select {
